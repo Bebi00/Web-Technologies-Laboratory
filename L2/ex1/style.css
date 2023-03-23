@@ -1,0 +1,81 @@
+
+/* Main Index */
+*{
+    box-sizing: border-box;
+    outline: 1px solid limegreen !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.frame-display {
+    width: 90%;
+    height: 50%;
+    border-style: none;
+}
+
+form{
+    display: inline-block;
+}
+
+.buttons form {
+    border: #00ff00;
+    border-radius: 1rem;
+
+}
+
+
+/* CLASS A */
+.class-A h1{
+    background-color: #00ff00;   
+}
+
+.class-A h2{
+    background-color: rgb(250,0,255);
+}
+
+body.class-A{
+    background-color: yellow;
+}
+/* CLASS B */
+body.class-B{
+    background-image: url("assets/img/imgB.png");
+    background-repeat: no-repeat;
+}
+
+body.class-C{
+    background-image: url("assets/img/imgB.png");
+    background-repeat: repeat;
+    background-size: 25%;
+}
+
+body.class-D{
+    background-image: url("assets/img/imgB.png");
+    background-repeat: repeat-y;
+    background-size: 25%;
+}
+
+body.class-E{
+    background-image: url("assets/img/imgB.png");
+    background-repeat: repeat-x;
+    background-size: 25%;
+}
+
+body.class-F{
+    background-color: #00ff00;
+}
+
+.class-F{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.class-G {
+  position: sticky;
+  top: 0;
+  width: 50%;
+}
