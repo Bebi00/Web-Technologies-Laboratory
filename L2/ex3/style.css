@@ -1,0 +1,96 @@
+
+/* Main Index */
+*{
+    box-sizing: border-box;
+    outline: 1px solid limegreen !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.frame-display {
+    width: 90%;
+    height: 50%;
+    border-style: none;
+}
+
+form{
+    display: inline-block;
+}
+
+.buttons form {
+    border: #00ff00;
+    border-radius: 1rem;
+
+}
+
+
+/* CLASS A */
+.class-A h3{
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.class-A p{
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ .class-A .sansserif p{
+    font-family: sans-serif;
+ }
+
+
+ .Inside{    
+    border: black;
+    padding: 5%;
+    background-color: blue;
+    margin: 3%;
+}
+
+
+
+
+/* CLASS B */
+h1.class-B {
+    font-size: 3rem;
+}
+
+h3.class-B {
+    font-size: 1.521rem;
+}
+
+body.class-C{
+    background-image: url("assets/img/imgB.png");
+    background-repeat: repeat;
+    background-size: 25%;
+}
+
+body.class-D{
+    background-image: url("assets/img/imgB.png");
+    background-repeat: repeat-y;
+    background-size: 25%;
+}
+
+body.class-E{
+    background-image: url("assets/img/imgB.png");
+    background-repeat: repeat-x;
+    background-size: 25%;
+}
+
+body.class-F{
+    background-color: #00ff00;
+}
+
+.class-F{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.class-G {
+  position: sticky;
+  top: 0;
+  width: 50%;
+}
